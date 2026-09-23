@@ -1,0 +1,59 @@
+package collections.module2.Queue;
+
+import java.util.*;
+
+public class ArrayDequeExample {
+
+    public static void main(String[] args) {
+
+        // Create Queue using ArrayDeque
+        Queue<Integer> q = new ArrayDeque<>();
+
+        // offer() → Add element at the last
+        q.offer(10);
+        q.offer(20);
+        q.offer(30);
+        q.offer(40);
+
+        // Print Queue
+        System.out.println(q);
+
+        // peek() → Check first element
+        System.out.println(q.peek());
+
+        // poll() → Remove first element
+        System.out.println(q.poll());
+
+        // Print Queue
+        System.out.println(q);
+
+        // add() → Add element at the last
+        q.add(50);
+
+        // element() → Check first element
+        System.out.println(q.element());
+
+        // remove() → Remove first element
+        System.out.println(q.remove());
+
+        // contains() → Check whether element exists
+        System.out.println(q.contains(30));
+
+        // size() → Number of elements
+        System.out.println(q.size());
+
+        // isEmpty() → Check whether Queue is empty
+        System.out.println(q.isEmpty());
+
+        // for-each → Traverse Queue
+        for (int num : q) {
+            System.out.println(num);
+        }
+
+        // clear() → Remove all elements
+        q.clear();
+
+        // Print after clear
+        System.out.println(q);
+    }
+}

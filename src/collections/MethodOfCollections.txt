@@ -1,0 +1,21 @@
+//Java Collection Methods
+
+//      add() – inserts the specified element into the collection.
+
+//      addAll() – adds all elements of a specified collection to the collection.
+
+//      remove() – removes the specified element from the collection.
+
+//      removeAll() – removes all elements of the specified collection from the collection.
+
+//      contains() – checks whether the specified element exists in the collection.
+
+//      containsAll() – checks whether all elements of the specified collection exist in the collection.
+
+//      size() – returns the number of elements in the collection.
+
+//      isEmpty() – checks whether the collection contains no elements.
+
+//      clear() – removes all elements from the collection.
+
+//      terator() – returns an iterator to access the elements of the collection.

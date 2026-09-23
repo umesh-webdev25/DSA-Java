@@ -1,0 +1,148 @@
+Queue
+├── LinkedList
+├── PriorityQueue
+└── ArrayDeque
+
+
+1) Queue<Integer> q = new LinkedList<>();
+add()
+offer()
+
+remove()
+poll()
+
+element()
+peek()
+
+contains()
+size()
+isEmpty()
+clear()
+
+
+2) Queue<Integer> q = new PriorityQueue<>();
+
+add()
+offer()
+
+remove()
+poll()
+
+element()
+peek()
+
+contains()
+size()
+isEmpty()
+clear()
+
+
+3) Queue<Integer> q = new ArrayDeque<>();
+
+add()
+offer()
+
+remove()
+poll()
+
+element()
+peek()
+
+contains()
+size()
+isEmpty()
+clear()
+
+
+///////////////////////////////
+Deque
+├── ArrayDeque
+└── LinkedList
+
+1) Deque<Integer> q = new ArrayDeque<>();
+
+
+// Add
+q.addFirst(10);
+q.addLast(20);
+
+q.offerFirst(10);
+q.offerLast(20);
+
+// Remove
+q.removeFirst();
+q.removeLast();
+
+q.pollFirst();
+q.pollLast();
+
+// Check
+q.getFirst();
+q.getLast();
+
+q.peekFirst();
+q.peekLast();
+
+// Queue-style
+q.add(10);
+q.offer(10);
+
+q.remove();
+q.poll();
+
+q.element();
+q.peek();
+
+// Stack-style
+q.push(10);
+q.pop();
+
+// Other
+q.contains(10);
+q.size();
+q.isEmpty();
+q.clear();
+
+
+2) Deque<Integer> q = new LinkedList<>();
+
+// Add
+q.addFirst(10);
+q.addLast(20);
+
+q.offerFirst(10);
+q.offerLast(20);
+
+// Remove
+q.removeFirst();
+q.removeLast();
+
+q.pollFirst();
+q.pollLast();
+
+// Check
+q.getFirst();
+q.getLast();
+
+q.peekFirst();
+q.peekLast();
+
+// Queue-style
+q.add(10);
+q.offer(10);
+
+q.remove();
+q.poll();
+
+q.element();
+q.peek();
+
+// Stack-style
+q.push(10);
+q.pop();
+
+// Other
+q.contains(10);
+q.size();
+q.isEmpty();
+q.clear();

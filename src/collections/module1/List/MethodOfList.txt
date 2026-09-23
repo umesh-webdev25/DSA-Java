@@ -1,0 +1,39 @@
+//Main List methods
+
+//add() – inserts an element into the list.
+
+//add(index, element) – inserts an element at the specified index.
+
+//addAll() – adds all elements of another collection to the list.
+
+//addAll(index, collection) – adds all elements of a collection starting at the specified index.
+
+//get(index) – returns the element at the specified index.
+
+//set(index, element) – replaces the element at the specified index.
+
+//remove(index) – removes the element at the specified index.
+
+//remove(element) – removes the specified element from the list.
+
+//removeAll() – removes all elements that are present in the specified collection.
+
+//contains() – checks whether the specified element exists in the list.
+
+//containsAll() – checks whether all elements of the specified collection exist in the list.
+
+//indexOf() – returns the index of the first occurrence of an element.
+
+//lastIndexOf() – returns the index of the last occurrence of an element.
+
+//size() – returns the number of elements in the list.
+
+//isEmpty() – checks whether the list is empty.
+
+//clear() – removes all elements from the list.
+
+//subList() – returns a portion of the list between the specified indexes.
+
+//iterator() – returns an iterator to access elements of the list.
+
+//listIterator() – returns a list iterator to traverse the list in both directions.
