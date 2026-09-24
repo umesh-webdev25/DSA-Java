@@ -7,53 +7,44 @@ public class ArrayDequeExample {
     public static void main(String[] args) {
 
         // Create Queue using ArrayDeque
-        Queue<Integer> q = new ArrayDeque<>();
+        Queue<Integer> list= new ArrayDeque<>();
+        list.add(10);
+        list.add(20);
+        list.add(30);
+        list.add(40);
+        list.add(50);
+        list.offer(60);
 
-        // offer() → Add element at the last
-        q.offer(10);
-        q.offer(20);
-        q.offer(30);
-        q.offer(40);
-
-        // Print Queue
-        System.out.println(q);
-
-        // peek() → Check first element
-        System.out.println(q.peek());
-
-        // poll() → Remove first element
-        System.out.println(q.poll());
-
-        // Print Queue
-        System.out.println(q);
-
-        // add() → Add element at the last
-        q.add(50);
-
-        // element() → Check first element
-        System.out.println(q.element());
-
-        // remove() → Remove first element
-        System.out.println(q.remove());
-
-        // contains() → Check whether element exists
-        System.out.println(q.contains(30));
-
-        // size() → Number of elements
-        System.out.println(q.size());
-
-        // isEmpty() → Check whether Queue is empty
-        System.out.println(q.isEmpty());
-
-        // for-each → Traverse Queue
-        for (int num : q) {
+        System.out.println(list);
+        System.out.println(list.isEmpty());
+        System.out.println(list.contains(20));
+        System.out.println(list.size());
+        for(int num : list){
             System.out.println(num);
         }
 
-        // clear() → Remove all elements
-        q.clear();
+        Object[] arr = list.toArray();
+        System.out.println(Arrays.toString(arr));
 
-        // Print after clear
-        System.out.println(q);
+        Queue<Integer> list2 = new ArrayDeque<>();
+        list2.addAll(list);
+        System.out.println(list2);
+
+        list2.add(50);
+        list2.add(60);
+        list2.add(70);
+        list2.add(80);
+
+
+        list2.removeAll(list);
+        System.out.println(list2);
+
+        System.out.println(list2);
+
+        System.out.println(list2);
+        System.out.println(list2.peek());
+        System.out.println(list2.poll());
+        list2.clear();
+        System.out.println(list2);
     }
 }

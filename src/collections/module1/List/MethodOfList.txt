@@ -1,39 +1,39 @@
-//Main List methods
+List — Common Methods
 
-//add() – inserts an element into the list.
+| Method                | What it does                                      | Example                             |
+| --------------------- | ------------------------------------------------- | ----------------------------------- |
+| `add()`               | Adds an element                                   | `list.add(10);`                     |
+| `add(index, element)` | Adds element at a specific index                  | `list.add(1, 20);`                  |
+| `addAll()`            | Adds all elements of another collection           | `list.addAll(list2);`               |
+| `remove(index)`       | Removes element by index                          | `list.remove(1);`                   |
+| `remove(Object)`      | Removes element by value                          | `list.remove(Integer.valueOf(10));` |
+| `removeAll()`         | Removes matching elements from another collection | `list.removeAll(list2);`            |
+| `contains()`          | Checks whether element exists                     | `list.contains(10);`                |
+| `indexOf()`           | Returns first index of element                    | `list.indexOf(10);`                 |
+| `lastIndexOf()`       | Returns last index of element                     | `list.lastIndexOf(10);`             |
+| `size()`              | Returns number of elements                        | `list.size();`                      |
+| `isEmpty()`           | Checks whether list is empty                      | `list.isEmpty();`                   |
+| `get()`               | Gets element at index                             | `list.get(0);`                      |
+| `set()`               | Replaces element at index                         | `list.set(0, 50);`                  |
+| `clear()`             | Removes all elements                              | `list.clear();`                     |
+| `toArray()`           | Converts list to array                            | `list.toArray();`                   |
+| `listIterator()`      | Creates iterator for traversing list              | `list.listIterator();`              |
+| `reversed()`          | Returns a reversed view of the list               | `list.reversed();`                  |
+| `addFirst()`          | Adds an element at the beginning                  | `list.addFirst(10);`                |
+| `addLast()`           | Adds an element at the end                        | `list.addLast(20);`                 |
+| `removeFirst()`       | Removes the first element                         | `list.removeFirst();`               |
+| `removeLast()`        | Removes the last element                          | `list.removeLast();`                |
 
-//add(index, element) – inserts an element at the specified index.
 
-//addAll() – adds all elements of another collection to the list.
 
-//addAll(index, collection) – adds all elements of a collection starting at the specified index.
+Stack-specific methods
 
-//get(index) – returns the element at the specified index.
+| Method     | What it does            | Example             |
+| ---------- | ----------------------- | ------------------- |
+| `push()`   | Adds to top             | `stack.push(10);`   |
+| `pop()`    | Removes top             | `stack.pop();`      |
+| `peek()`   | Views top               | `stack.peek();`     |
+| `empty()`  | Checks empty            | `stack.empty();`    |
+| `search()` | Finds position from top | `stack.search(10);` |
 
-//set(index, element) – replaces the element at the specified index.
 
-//remove(index) – removes the element at the specified index.
-
-//remove(element) – removes the specified element from the list.
-
-//removeAll() – removes all elements that are present in the specified collection.
-
-//contains() – checks whether the specified element exists in the list.
-
-//containsAll() – checks whether all elements of the specified collection exist in the list.
-
-//indexOf() – returns the index of the first occurrence of an element.
-
-//lastIndexOf() – returns the index of the last occurrence of an element.
-
-//size() – returns the number of elements in the list.
-
-//isEmpty() – checks whether the list is empty.
-
-//clear() – removes all elements from the list.
-
-//subList() – returns a portion of the list between the specified indexes.
-
-//iterator() – returns an iterator to access elements of the list.
-
-//listIterator() – returns a list iterator to traverse the list in both directions.

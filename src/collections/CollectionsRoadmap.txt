@@ -1,0 +1,27 @@
+Java Collections
+│
+├── List
+│   ├── ArrayList
+│   ├── LinkedList
+│   ├── Vector
+│   └── Stack
+│
+├── Queue
+│   ├── LinkedList
+│   ├── ArrayDeque
+│   └── PriorityQueue
+│
+├── Deque
+│   ├── ArrayDeque
+│   └── LinkedList
+│
+├── Set
+│   ├── HashSet
+│   ├── LinkedHashSet
+│   └── TreeSet
+│
+└── Map
+    ├── HashMap
+    ├── LinkedHashMap
+    ├── TreeMap
+    └── Hashtable

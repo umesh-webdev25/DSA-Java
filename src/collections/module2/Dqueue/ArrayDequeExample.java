@@ -12,9 +12,9 @@ public class ArrayDequeExample {
         // Add
         q.addFirst(10);
         q.addLast(20);
-
         q.offerFirst(5);
         q.offerLast(30);
+        q.add(345);
 
         System.out.println(q);
 
@@ -35,6 +35,7 @@ public class ArrayDequeExample {
         // Queue-style methods
         q.add(40);
         q.offer(50);
+        System.out.println(q);
 
         System.out.println(q.peek());
         System.out.println(q.element());

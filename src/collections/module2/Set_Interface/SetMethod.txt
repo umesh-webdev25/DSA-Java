@@ -1,0 +1,28 @@
+| Method          | What it does                                 | Example                                    |
+| --------------- | -------------------------------------------- | ------------------------------------------ |
+| `add()`         | Adds an element to the set                   | `set.add(10);`                             |
+| `remove()`      | Removes an element from the set              | `set.remove(10);`                          |
+| `contains()`    | Checks whether an element exists             | `set.contains(10);`                        |
+| `size()`        | Returns the number of elements               | `set.size();`                              |
+| `isEmpty()`     | Checks whether the set is empty              | `set.isEmpty();`                           |
+| `clear()`       | Removes all elements                         | `set.clear();`                             |
+| `addAll()`      | Adds all elements from another collection    | `set.addAll(set2);`                        |
+| `removeAll()`   | Removes elements found in another collection | `set.removeAll(set2);`                     |
+| `retainAll()`   | Keeps only common elements                   | `set.retainAll(set2);`                     |
+| `containsAll()` | Checks whether all elements exist            | `set.containsAll(set2);`                   |
+| `forEach()`     | Loops through the set                        | `set.forEach(x -> System.out.println(x));` |
+| `iterator()`    | Returns an iterator                          | `set.iterator();`                          |
+
+
+TreeSet important additional methods
+
+| Method        | What it does                             | Example            |
+| ------------- | ---------------------------------------- | ------------------ |
+| `first()`     | Returns the smallest element             | `set.first();`     |
+| `last()`      | Returns the largest element              | `set.last();`      |
+| `lower()`     | Returns element smaller than given value | `set.lower(20);`   |
+| `higher()`    | Returns element greater than given value | `set.higher(20);`  |
+| `floor()`     | Returns element ≤ given value            | `set.floor(20);`   |
+| `ceiling()`   | Returns element ≥ given value            | `set.ceiling(20);` |
+| `pollFirst()` | Removes the smallest element             | `set.pollFirst();` |
+| `pollLast()`  | Removes the largest element              | `set.pollLast();`  |

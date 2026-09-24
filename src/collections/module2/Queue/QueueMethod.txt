@@ -1,0 +1,24 @@
+Queue — Important Methods
+
+| Method       | What it does                          | Example           |
+| ------------ | ------------------------------------- | ----------------- |
+| `add()`      | Adds an element to the queue          | `q.add(10);`      |
+| `offer()`    | Adds an element to the queue          | `q.offer(10);`    |
+| `remove()`   | Removes the front element             | `q.remove();`     |
+| `poll()`     | Removes and returns the front element | `q.poll();`       |
+| `element()`  | Returns the front element             | `q.element();`    |
+| `peek()`     | Returns the front element             | `q.peek();`       |
+| `contains()` | Checks whether an element exists      | `q.contains(10);` |
+| `size()`     | Returns the number of elements        | `q.size();`       |
+| `isEmpty()`  | Checks whether the queue is empty     | `q.isEmpty();`    |
+| `clear()`    | Removes all elements                  | `q.clear();`      |
+
+
+it only use for Queue<Integer> list = new LinkedList<>();
+
+| `addFirst()`    | Adds an element at the beginning        | `dq.addFirst(10);`   |
+| `addLast()`     | Adds an element at the end              | `dq.addLast(20);`    |
+| `removeFirst()` | Removes the first element               | `dq.removeFirst();`  |
+| `removeLast()`  | Removes the last element                | `dq.removeLast();`   |
+
+

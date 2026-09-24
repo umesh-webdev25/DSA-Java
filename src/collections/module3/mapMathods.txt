@@ -1,0 +1,19 @@
+| Method            | What it does                  | Example                                     |
+| ----------------- | ----------------------------- | ------------------------------------------- |
+| `put()`           | Add/update pair               | `map.put(1, "Umesh");`                      |
+| `putAll()`        | Add another map               | `map.putAll(map2);`                         |
+| `putIfAbsent()`   | Add only if key doesn't exist | `map.putIfAbsent(1, "Umesh");`              |
+| `get()`           | Get value                     | `map.get(1);`                               |
+| `getOrDefault()`  | Get value or default          | `map.getOrDefault(5, "Not Found");`         |
+| `containsKey()`   | Check key                     | `map.containsKey(1);`                       |
+| `containsValue()` | Check value                   | `map.containsValue("Umesh");`               |
+| `remove()`        | Remove key                    | `map.remove(1);`                            |
+| `replace()`       | Replace value                 | `map.replace(1, "Rahul");`                  |
+| `replaceAll()`    | Replace all values            | `map.replaceAll((k,v) -> v.toUpperCase());` |
+| `size()`          | Number of pairs               | `map.size();`                               |
+| `isEmpty()`       | Check empty                   | `map.isEmpty();`                            |
+| `clear()`         | Remove all                    | `map.clear();`                              |
+| `keySet()`        | Get all keys                  | `map.keySet();`                             |
+| `values()`        | Get all values                | `map.values();`                             |
+| `entrySet()`      | Get key-value pairs           | `map.entrySet();`                           |
+| `forEach()`       | Loop through map              | `map.forEach((k,v) -> ...);`                |
