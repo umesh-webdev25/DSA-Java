@@ -9,6 +9,7 @@ public class ExampalOfHashSet{
         set.add(20);
         set.add(30);
         set.add(20); // Duplicate → ignored
+        System.out.println();
 
         // Print Set
         System.out.println(set);

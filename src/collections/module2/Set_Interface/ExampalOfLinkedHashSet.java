@@ -11,6 +11,7 @@ public class ExampalOfLinkedHashSet {
         set.add(20);
         set.add(20); // Duplicate → ignored
 
+
         // Maintains insertion order
         System.out.println(set);
 

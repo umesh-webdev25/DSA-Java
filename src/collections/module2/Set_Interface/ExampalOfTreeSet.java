@@ -3,7 +3,7 @@ import java.util.*;
 public class ExampalOfTreeSet {
     public static void main(String[] args) {
         // Create TreeSet
-        Set<Integer> set = new TreeSet<>();
+        TreeSet<Integer> set = new TreeSet<>();
 
         // add() → Add elements
         set.add(30);
@@ -13,6 +13,20 @@ public class ExampalOfTreeSet {
 
         // TreeSet keeps elements sorted
         System.out.println(set);
+
+        System.out.println("First: " + set.first());
+        System.out.println("Last: " + set.last());
+
+        System.out.println("Lower than 30: " + set.lower(30));
+        System.out.println("Higher than 30: " + set.higher(30));
+
+        System.out.println("Floor of 30: " + set.floor(30));
+        System.out.println("Ceiling of 30: " + set.ceiling(30));
+
+        System.out.println("Poll First: " + set.pollFirst());
+        System.out.println("Poll Last: " + set.pollLast());
+
+        System.out.println("After polling: " + set);
 
         // contains() → Check element
         System.out.println(set.contains(20));
@@ -49,6 +63,8 @@ public class ExampalOfTreeSet {
 
         set.retainAll(set3);
         System.out.println(set);
+
+
 
         // clear()
         set.clear();

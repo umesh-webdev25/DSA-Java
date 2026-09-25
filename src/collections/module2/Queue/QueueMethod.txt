@@ -14,7 +14,7 @@ Queue — Important Methods
 | `clear()`    | Removes all elements                  | `q.clear();`      |
 
 
-it only use for Queue<Integer> list = new LinkedList<>();
+it only Use for Queue<Integer> list = new LinkedList<>();
 
 | `addFirst()`    | Adds an element at the beginning        | `dq.addFirst(10);`   |
 | `addLast()`     | Adds an element at the end              | `dq.addLast(20);`    |
