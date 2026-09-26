@@ -11,7 +11,7 @@ public class reversNumber {
         return revNum;
     }
     public static void main(String[] args) {
-        int num = 12345;
+        int num = -12345;
         int ans = reverDigit(num);
         System.out.println(ans);
     }

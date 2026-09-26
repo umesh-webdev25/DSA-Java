@@ -11,7 +11,7 @@ public class maxValueArray {
         }
         System.out.println();
         //Find the max Elemement for the Array
-        int max=arr[0];
+        int max = arr[0];
         for(int i=0; i<l; i++){
             if(arr[i] > max){
                 max=arr[i];
